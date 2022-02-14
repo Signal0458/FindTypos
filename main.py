@@ -42,8 +42,8 @@ for i, element in enumerate(search_box_list):
 
     # 배열의 크기가 1보다 작으면(찾은 값이 없으면)
     if len(ship_date) < 1:
-        # 배송날짜에 공백 입력
-        ship_date = ''
+        # 배송날짜에 None입력
+        ship_date = None
     else:
         # 배송날짜 가져오기
         # ship_date는 배열로 받아 왔으니 ship_date 뒤에 배열 중 어떤 값인지 적어줘야함
